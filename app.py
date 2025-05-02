@@ -50,7 +50,7 @@ user_inputs = []
 
 st.markdown("### 🧪 Enter the water quality parameters:")
 for col in columns:
-    val = st.number_input(f"{col}", format="%.2f")
+    val = st.number_input(f"{col}", format="%.1f")
     user_inputs.append(val)
 
 # --- Prediction Button ---
